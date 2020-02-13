@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM vm/ubuntu:18.04
 
 RUN echo -e "$(tput setaf 160)hello! \e[0mAfter reset!"
 RUN echo -e "$(tput setaf 200)hello2! \e[0mAfter reset!"
